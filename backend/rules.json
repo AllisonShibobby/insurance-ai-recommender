@@ -1,0 +1,32 @@
+[
+  {
+    "conditions": {
+      "age_group": "25-34",
+      "job_type": "企业员工",
+      "pref_critical_illness": true
+    },
+    "recommendations": ["重疾险基础计划", "住院医疗险经济版"]
+  },
+  {
+    "conditions": {
+      "age_group": "18-24",
+      "annual_income": "<10万",
+      "follow_insurance_mp": true
+    },
+    "recommendations": ["百万医疗险青春版"]
+  },
+  {
+    "conditions": {
+      "pref_critical_illness": true,
+      "follow_insurance_mp": true
+    },
+    "recommendations": ["智能重疾险优选计划"]
+  },
+  {
+    "conditions": {
+      "pref_critical_illness": false,
+      "follow_insurance_mp": false
+    },
+    "recommendations": ["定期寿险入门版"]
+  }
+]
